@@ -1,0 +1,37 @@
+@import url("HomeIndex.css");
+
+#blog {
+	width: 900px;
+	margin: 0 auto; 
+}
+#blog #userImg { 
+	width: 100%;
+	height: 360px;
+	margin-top: 5px;
+	background-color: #eee;
+	background-size: cover;
+	background-position: center;
+} 
+#blog #userImg img {
+	display: none;
+}
+#blog .title h1 {
+	font-size: 4.5rem;
+	font-weight: 500;
+	margin-right: 20px;
+	float: left;
+}
+#blog .blogInfo {
+	float: left;
+	font-size: 1.5rem;
+	color: #ccc;
+	margin-top: 13px;
+}
+#blog .content {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 1.8rem;
+	line-height: 30px;
+	text-indent: 36px;
+}

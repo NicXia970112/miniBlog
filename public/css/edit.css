@@ -1,0 +1,67 @@
+@import url("HomeIndex.css");
+
+#edit {
+	width: 600px;
+	margin: 30px auto;
+	margin-bottom: 200px;
+} 
+#edit .cell:nth-child(1) input {
+	width: 600px;
+	height: 200px;
+	background: url(../img/camera.png) -70px -10px;
+	cursor: pointer;
+	text-align: center;
+	text-indent: -999;
+	border: none;
+	color: #f7f9f9;
+}
+#edit .cell:nth-child(2), #edit .cell:nth-child(5) {
+	height: 45px;
+}
+#edit .cell:nth-child(3) {
+	height: 170px;
+}
+#edit .cell:nth-child(4) {
+	height: 300px;
+}
+#edit label {
+	display: inline-block;
+	width: 100px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 2rem;
+	vertical-align: top;
+	text-align: right;
+	margin-right: 5px;
+	color: grey;
+}
+#edit .cell input, #edit .cell textarea {
+	width: 455px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	resize: none;
+	margin-top: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#edit .cell input {
+	height: 30px;
+	
+}
+#edit #editSub {
+	width: 455px;
+	height: 45px;
+	background-color: #286CB3;
+	color: #fff;
+	font-size: 2rem;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 110px;
+	margin-top: 30px;
+}
+#edit #editSub:hover {
+	background-color: #fff;
+	color: #286CB3;
+	border: 1px solid #286CB3;
+}

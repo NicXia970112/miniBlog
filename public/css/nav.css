@@ -1,0 +1,28 @@
+@import url("base.css");
+
+header {
+	width: 100%;
+	height: 100px;
+	padding: 0 80px;
+	box-sizing: border-box;
+	background-color: #286cb3; 
+	position: relative;
+}
+header div.logo {
+	color: #fff;
+	font-weight: 600;
+	font-size: 4.5rem; 
+	position: absolute;
+	left: 80px;
+	top: 12px;
+}
+header div.right {
+	font-size: 2rem;
+	line-height: 10rem;
+	text-align: right;
+	position: absolute;
+	right: 80px;
+}
+header a {
+	color: #fff;
+}

@@ -1,0 +1,67 @@
+@import url("nav.css");
+
+.main {
+	width: 55%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.main h1 {
+	width: 90%;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 40px;
+	padding-left: 15px;
+	font-weight: 500;
+	font-family: "微软雅黑";
+	font-size: 2rem;
+	border-bottom: 2px #ccc solid;
+	border-left: 3px #286CB3 solid;
+}
+#login {
+	width: 600px;
+	margin: 0 auto;
+	font-family: "微软雅黑";
+	padding-left: 100px;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+#login label {
+	font-size: 1.8rem;
+	color: grey;
+}
+#login input[type=text], #login input[type=password] {
+	width: 280px;
+	height: 30px;
+	border: 1px #ccc solid;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+#loginBtn {
+	width: 80px;
+	height: 40px;
+	background-color: #286CB3;
+	border: none;
+	font-size: 1.8rem;
+	color: #fff;
+	cursor: pointer;
+	margin-left: 90px;
+	border-radius: 5px;
+} 
+#login div {
+	border-radius: 5px;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;  
+	font-size: 1.8rem;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 30px;
+	vertical-align: bottom;
+	text-align: center;
+	border: solid 1px #286CB3;
+	background-color: #FFFFFF;
+}
+#login a {
+	color: #286CB3;
+}

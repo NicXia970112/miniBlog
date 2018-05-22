@@ -1,0 +1,25 @@
+@import url("editProfile.css");
+
+form div span {
+	font-size: 1.2rem;
+	color: #FF0000;
+	display: none;
+}
+#edp #vf input {
+	width: 230px;
+	margin-right: 10px;
+}
+div#vf button {
+	width: 80px;
+	height: 28px;
+	border-radius: 5px;
+	font-size: 1.3rem;
+	border: 1px solid #286CB3;
+	background-color: #286CB3;
+}
+div button a {
+	color: #fff;
+} 
+.btn1 a {
+	color: #fff;
+}
